@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Akan_Names</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+
+    <div class="birth-day">
+
+        <div class="card-deck">
+            <div class="card bg-primary">
+                <h1><strong>Verify and Know Your  "AKAN NAME!"</strong></h1>
+                <div class="card-body text-center">
+                    <p class="card-text">Akan names come from a traditional naming system for people from countries such as Togo, Ivory Coast and Ghana. A child’s name is determined by factors surrounding his or her birth. For example, the day of their birth or the manner
+                        in which they were born may determine which name they get irrespective of their gender. These Akan names signify the day one is born. According to Akan tradition, each child is born with a name associated to their soul. The day
+                        the child is born is therefore determined by the soul. The well thought and organized naming system of the Akan’s was initiated by the ancestors and has attracted so many people’s attention as they desire to know more about these
+                        names.</p>
+                    <p>
+                        <h5><em><a href="#https://en.wikipedia.org/wiki/Akan_names" class="card-link">Read more...</a>
+                        </em></h5>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <h1>Ghanaian Akan Names verifier</h1>
+
+            <label for="month"><b>Month</b></label>
+            <input id="month" type="number" placeholder="Enter Month" name="month" required>
+
+            <label for="day"><b>Day</b></label>
+            <input id="day" type="number" placeholder="Enter day" name="day" required><br>
+
+            <label for="year"><b>Year</b></label>
+            <input id="year" type="number" placeholder="Enter Year" name="year" required>
+
+            <div class="gender">
+                <h3><strong>Enter your gender</strong></h3>
+
+                <div id="radioInput">
+                    <input type="radio" name="gender" id="genderMale" value="male">
+                    <label for="gender">Male</label>
+                </div>
+
+                <div id="radioOutput">
+                    <input type="radio" name="gender" id="genderFemale" value="female">
+                    <label for="gender">Female</label>
+                </div>
+            </div>
+
+            <div id="red">
+                <button type="submit" onclick="akanNames()">Submit</button>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
